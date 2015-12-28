@@ -1,0 +1,111 @@
+#labels Phase-Requirements
+===EZTennis 3.0===
+
+Overview:
+    EZTennis 3.0 is a project designed to take the functionality and overall performance of sales and customer service to the next level. It will utilize the latest technologies to enable unsurpassed customer service in order to increase sales and provide an exceptional experience for the customer and administrator. The look and feel of this web application will be unlike any other tennis equipment website seen before.
+
+----
+
+Initial Expected Timeline: 3 months
+
+Technologies Used:
+  * A list
+  * Zen Cart.
+  * Ext JS
+  * MooTools
+  * Google web services
+   * Google chat http://code.google.com/apis/talk/talk_gadget.html, 
+   * Gmail, 
+   * Google Docs
+  * Virtue Mart (shopping cart) - http://virtuemart.net/index.php?option=com_content&task=view&id=54&Itemid=147
+  * ccBoard(forum) - http://codeclassic.org/the-downloads.html
+  * Aim - http://dev.aol.com/aim/downloads
+
+
+Pre-requisites:
+  * Create new site under subfolder "beta"
+  * Migrate all customers to new database structure
+  * Migrate all products to new database structure
+  * Create static layout of the web application and functionality
+  * Build php/js engine to dynamically generate ext-js windows and other objects
+  * Create joomla standalone module deployment module (bootloader) load all necessary objects / items in order to load modules exclusively (needed to use modules in windows)
+
+
+Website Specifications:
+    Home Page
+        -Registering should be extremely simple ( email , username, password )
+        -Home page should have "authorized" pictures of tennis celebrities.
+        -Home page should show latest products.
+        -Home page should display latest news/info about website / offers / opportunities.
+        -Home page will dynamically change into product page. Should be static, should never refresh
+        -Search bar will allow for user to search exclusively 
+        -Dashboard bar will display accross the bottom of the screen
+        -Login form on home page (pop up window)
+        -Button for racquet request form.
+        -Users will have a purchase/invoice history
+
+    Product Menu
+        -Product menu should categorize items down to model
+        -
+
+
+    Product Catalog Pages
+        -Catalog pages will display thumbnails of items in 
+        -Once an item is clicked a product detail window will display (multiple product detail windows can be displayed at once)
+
+
+    Product Detail Windows
+        -Will display a medium image of the racquet or item
+        -If its a raquet, display grip size options
+        -Will contain a breif description of the product
+        -Ability to add to cart
+        -Ability to add item to a favorites list
+        -Once user has added to cart, dialog box should display asking user to:
+            -continue shopping
+            -view cart
+            -checkout
+        -Live chat/customer service button to let customer speak with a sales representative /with status stating if representative is available, 
+
+    Raquet Request Form (window)
+        -Will let users request racquets and notify administration of the request
+        -Fields will include racquet make, model, grip size, and a side note
+        
+
+    EZ Request Form (window)
+        Same as before but use new ext-js window types instead.
+
+
+    EZ Dashboard (dashboard)
+        -Bar that will display accross the bottom of the screen providing functionality for the user
+        -Should have the ability view and access shopping cart.
+        -Customer service chat button /with status stating if representative is available, 
+        -Button to login / logout (will open a login window)
+        -Button for racqet request
+        -Button for ez reqeust
+        -Ability to create/modify account
+
+     
+    Account Modification window
+        -Modfiy account settings / close account.
+        -
+
+
+    Shopping cart window
+        -View / add / edit / delete items
+
+    
+Administrator Specifications:
+
+
+    Main Menu
+        -Separate website content management from product /customer / payment management 
+
+
+For each module installed for admin, have a menu item listed for it, and for the window load the joomla component module and load the admin interface.
+
+    Customer Management
+           -Email management - GMail Integration
+         -Chat Interface
+         -Customer Info - Buying History
+         -Ebay Integration - View customers and ebay item info
+         - 

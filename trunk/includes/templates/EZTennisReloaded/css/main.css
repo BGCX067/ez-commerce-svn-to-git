@@ -1,0 +1,546 @@
+/*
+tennis ball
+http://www.officialpsds.com/Tennis-Ball-PSD33510.html
+chick swinging tennis racquet
+http://www.fotolia.com/id/3521439
+
+other free tennis photos:
+http://www.sxc.hu/
+webmech
+bl3ss3d1
+	  
+*/
+
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ background: url(../images/background.jpg) #000000;
+ background-repeat: no-repeat;
+ background-attachment:fixed;
+ background-position:center; 
+}
+
+#wrapper { 
+ margin: 0 auto;
+ width: 80%;
+ height: 90%;
+}
+
+#wrapper{margin: 0% 10% 0% 10%;}
+
+#cartTopper
+{
+ margin: 0% 10% 0% 10%;
+ width: 80%;
+}
+
+#cartTopper{
+ margin: 0 auto;
+ width: 100%;
+ height: 8px;
+ background: url(../images/content_wrapper_div.png);
+}
+
+#Cart{
+ margin: 0 auto;
+ width: 20%;
+ height: 80px;
+ background: url(../images/content_wrapper_div.png);
+ float: right;
+ padding-left: 4px; 
+}
+
+#custCartArea{
+    height: 60px;
+}
+
+#ctSearch{
+    width: 100%;
+}
+
+#topNav
+{
+    top:0;
+    left:0;
+    width: 100%;
+    height: 25px;
+    background-color: #8AC240;
+    padding: 0% 0% 0% 0%;
+}
+
+#topNav li 
+{
+  display: inline;
+  padding: 10 10 30 20;
+}
+
+#search{
+ float: right;
+ border: 1px solid #0099CC;
+ background: #333333;
+ color: #8AC240;
+ 
+}
+
+#btnSearch{
+ float: right;
+ border: 1px solid #0099CC;
+ background: #333333;
+ color: #8AC240;
+ cursor: pointer;
+
+}
+
+#leftCol{
+  margin: 0 auto;
+  float: left;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  
+}
+
+
+#rightCol{
+  margin: 0 auto; 
+  position: relative;
+  top: 70px;
+  height: 500px;
+  float: right; 
+  width: 70%;
+  padding: 2% 2% 2% 2%;
+  background: url(../images/content_wrapper_div.png);
+  overflow: auto;
+} 
+
+#logo{
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+}
+
+
+#menu
+{
+	margin: 0 auto;
+	position: relative;
+	top: 70px;
+        height: 540px;
+	width: 100%;
+	background: url(../images/content_wrapper_div.png);
+        padding-top: 2%;
+        padding-bottom: 2%;
+}
+
+#special1{
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	width: 100%;
+	height: 150px;
+	background: url(../images/content_wrapper_div.png);
+}
+
+
+
+.category-top{
+font-weight:bold;
+color: #0099CC;
+}
+
+.sideBoxContent{
+width: 300px;
+}
+
+.category_menu_image
+{
+ height: 30px;
+ width: 60px;
+}
+
+
+div.sideBoxContent {
+	width: 200px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	text-align: left;
+	background: url(bottom.gif) no-repeat  right bottom;
+	color: #8AC240;
+}
+
+div.sideBoxContent div {
+	background: url(title.gif) repeat-x;
+	overflow: hidden;
+}
+div.sideBoxContent div:first-child {
+	background: url(toptitle.gif) no-repeat;
+}
+
+
+div.sideBoxContent div.collapsed {
+	height: 25px;
+}
+
+div.sideBoxContent div span {
+	display: block;
+	padding: 5px 25px;
+	font-weight: bold;
+	color: #8AC240;
+	background: url(expanded.gif) no-repeat 10px center;
+	cursor: default;
+	border-bottom: 1px solid #ddd;
+}
+
+
+div.sideBoxContent div.firstitem span {
+	 background: url(toptitle.gif) no-repeat;
+}
+
+div.sideBoxContent div.collapsed span {
+	background-image: url(collapsed.gif);
+}
+
+div.sideBoxContent div a {
+	padding: 5px 0px;
+	background: #eee;
+	display: block;
+	color: #8AC240;
+	font-size: .9em;
+}
+div.sideBoxContent div a.current {
+	background : #333;
+}
+
+
+div.sideBoxContent div a:hover {
+	background : #333 url(linkarrow.gif) no-repeat right center;
+	color: #8AC240;
+	text-decoration: none;
+}
+
+.category-subs{
+	color: #8AC240;    
+}
+
+.category-subs:hover{
+    background-color: #8AC240;
+    cursor: pointer;
+}
+
+.category-subs-selected:hover{
+    cursor: pointer;
+}
+.ez_products_all_home{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.ez_products{
+    height: 90px;
+    width: 90px; 
+    cursor: pointer;
+}
+
+.products_listing_1{
+    width: 100%;
+}
+
+.products_listing_2{
+    width: 70%;
+    float: right;
+}
+
+
+.products_listing_1 td{
+    width: 25%;
+}
+
+.products_list_subBox{
+    text-align:center;
+    cursor: pointer;
+    
+}
+
+.hmTitle{
+    background-color: #8AC240;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+}
+a:hover{
+    background-color: #333333;
+}
+
+.addthis_button_expanded{
+    color: #8AC240;
+    background-color: #333333;
+}
+.pName{
+    font-size: .7em;
+    font-weight: normal;
+    
+}
+
+.app_link{
+    cursor: pointer;
+    color: #333333;
+}
+
+.app_link a:hover{
+    color: #8AC240;
+}
+
+.sort_link{
+    cursor: pointer;
+}
+
+
+.sort_link:hover{
+    text-decoration: underline;
+}
+
+.desc_text{
+    width: 40%;
+}
+
+#lblProductsHeader{
+    position: relative;
+    width: 100%;
+    background-color: #333333;
+    color: #8AC240;
+    font-size: 1em;
+    text-align: left;
+    border: 1px solid #ffffff;
+}
+
+.lblHomeHeader{
+    position: relative;
+    width: 100%;
+    background-color: #333333;
+    background: url(title.gif);
+    color: #8AC240;
+    font-size: .9em;
+    font-weight: bold;
+    text-align: left;
+    border: none;
+    padding: 4px 4px 4px 4px;
+}
+
+.lblProdSearchTitle
+{
+    position: relative;
+    width: 98%;
+    background-color: #333333;
+    background: url(title.gif);
+    color: #8AC240;
+    font-size: .9em;
+    font-weight: bold;
+    text-align: left;
+    border: none;
+    padding: 4px 0px 4px 4px;
+}
+
+.lblProdSearchTitle td{
+    font-weight: normal;
+    padding: 4px 4px 4px 4px;
+}
+
+#homeLeftCol{
+    height: 100px;
+    width: 46%;
+    position: absolute;
+    border: 1px solid #ffffff;
+    background-color: #333333;
+    margin: 0% 0% 0% 0%;
+    color: #8AC240;
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+
+
+#homeRightCol{
+    height: 100px;
+    width: 46%;
+    position: relative;
+    border: 1px solid #ffffff;
+    background-color: #333333;
+    margin: 0% 0% 0% 52%;
+    color: #8AC240;
+    padding: 5px 5px 5px 5px;
+}
+#lblPurchaseNotice{
+    width: 98%;
+    background-color: #333333;
+    padding: 1% 1% 1% 1%;
+}
+#lblPayPal{
+ position: absolute;
+ margin: 0% 0% 0% 0%;
+}
+#lblGCheckout{
+    margin: 0% 0% 0% 50%;
+}
+
+#prodFilterPanel{
+    float: left;
+    width: 26%;
+    height: 200px;
+    background-color: #ffffff;
+}
+.btnHomeUI{
+    border: 1px outset #8AC240;
+    background-color: #ffffff;
+    font-size: 1em;
+    color: #333333;
+}
+
+.Prod_listing_title{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.Prod_listing_desc{
+    color: #333333;
+    font-size: 9px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.glossymenu{
+margin: 5px 0;
+padding: 0;
+width: 100%; /*width of menu*/
+border: 1px solid #9A9A9A;
+border-bottom-width: 0;
+}
+
+.leftBoxContainer{
+    width: 80%;
+    height: 500px;
+    padding-left: 10%;
+}
+.glossymenu a.menuitem{
+background: black url(title.gif) repeat-x bottom left;
+font: bold 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif; 
+color: #8AC240;
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: auto;
+padding: 4px 0;
+padding-left: 10px;
+text-decoration: none;
+}
+
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+color: white;
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: absolute;
+top: 5px;
+right: 5px;
+border: none;
+}
+
+.glossymenu a.menuitem:hover{
+background-image: url(title.gif);
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+background: white;
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.glossymenu div.submenu ul li{
+border-bottom: 1px solid #333333;
+}
+
+.glossymenu div.submenu ul li a{
+display: block;
+font: normal 12px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+color: black;
+text-decoration: none;
+padding: 2px 0;
+padding-left: 10px;
+}
+
+.glossymenu div.submenu ul li a:hover{
+background: #333333;
+color: #8AC240;
+cursor: pointer;
+}
+
+
+.e_z_loading1{
+border: 2px solid #ccc;
+width: 95%;
+height: 450px;
+background-color: #333333;
+padding: 2.5%;
+text-align: center;
+} 
+
+.pro_qty{
+    border: 1px outset #333333;
+    background-color: #ffffff;
+    font-size: 1em;
+    color: #333333;
+    width: 50px;
+}
+
+.prod_det_sel{
+    border: 1px outset #333333;
+    background-color: #ffffff;
+    color: #333333;
+    width: 80px;
+    font-size: 9px;
+}
+
+.prod_det_spec{
+    font-size: 9px;
+    color: #333333;
+    font-family: arial;
+    padding: 15px;
+}
+
+.lprod_det_spec{
+    font-size: 9px;
+    color: #333333;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.login_t{
+    font-size:12px;
+    font-family: arial;
+    padding: 10px;
+    background-color: #333333;
+    border: 1px solid #8AC240;
+    color: #8AC240;
+    width: 100%;
+}
+
+.login_1{
+    font-size:10px;
+    font-family: arial;
+    background-color: #333333;
+    border: 1px solid #8AC240;
+    color: #8AC240;
+    width: 20%;
+}

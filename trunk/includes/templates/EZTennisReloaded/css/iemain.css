@@ -1,0 +1,169 @@
+/*
+tennis ball
+http://www.officialpsds.com/Tennis-Ball-PSD33510.html
+chick swinging tennis racquet
+http://www.fotolia.com/id/3521439
+	  
+*/
+
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ background: url(../images/background.jpg) #000000;
+ background-repeat: no-repeat;
+ background-attachment:fixed;
+ background-position:center; 
+}
+
+#wrapper { 
+ margin: 0% 10% 0% 10%;
+ width: 100%;
+ height: 90%;
+}
+
+
+#cartTopper{
+ width: 100%;
+ height: 3px;
+ background: url(../images/content_wrapper_div.png);
+}
+
+#Cart{
+ margin: 0 auto;
+ width: 20%;
+ height: 80px;
+ background: url(../images/content_wrapper_div.png);
+ float: right;
+}
+
+#topNav{
+position: absolute;
+top:0;
+left:0;
+width: 100%;
+height: 4%;
+background-color: #8AC240;
+padding: 1% 10% .5% 10%;
+}
+
+#topNav li 
+{
+  display: inline;
+  padding: 10 10 30 20;
+}
+
+#search{
+ float: right;
+ border: 1px solid #0099CC;
+ background: #333333;
+ color: #8AC240;
+ 
+}
+
+#btnSearch{
+ float: right;
+ border: 1px solid #0099CC;
+ background: #333333;
+ color: #8AC240;
+ cursor: pointer;
+}
+
+
+#leftCol{
+  margin: 0 auto;
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+
+#rightCol{
+  margin: 0 auto; 
+  position: relative;
+  top: 70px;	
+  float: right;
+  width: 74%;
+  height: 70%;
+  background: url(../images/content_wrapper_div.png);
+}
+
+#logo{
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+}
+
+#menu
+{
+	margin: 0 auto;
+	position: relative;
+	top: 70px;
+	width: 100%;
+	background: url(../images/content_wrapper_div.png);
+}
+
+#special1{
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	width: 100%;
+	height: 150px;
+	background: url(../images/content_wrapper_div.png);
+}
+
+#header {
+ color: #333;
+ width: 900px;
+ float: left;
+ padding: 10px;
+ border: 1px solid #ccc;
+ height: 100px;
+ margin: 10px 0px 0px 0px;
+ background: #E7DBD5;
+}
+
+#navigation {
+ float: left;
+ width: 900px;
+ color: #333;
+ padding: 10px;
+ border: 1px solid #ccc;
+ margin: 0px 0px 0px 0px;
+ background: #BD9C8C;
+}
+
+#leftcolumn { 
+ color: #333;
+ border: 1px solid #ccc;
+ background: #E7DBD5;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ height: 350px;
+ width: 200px;
+ float: left;
+}
+#rightcolumn { 
+ float: right;
+ color: #333;
+ border: 1px solid #ccc;
+ background: #F2F2E6;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ height: 350px;
+ width: 678px;
+ display: inline;
+}
+#footer { 
+ width: 900px;
+ clear: both;
+ color: #333;
+ border: 1px solid #ccc;
+ background: #BD9C8C;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
+}

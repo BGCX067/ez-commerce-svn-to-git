@@ -1,0 +1,42 @@
+
+.vprodImgDisp{
+    width: 46%;
+    position: absolute;
+    border: 1px solid #ffffff;
+    background-color: #333333;
+    margin: 0% 0% 0% 0%;
+    color: #8AC240;
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+
+
+.vprodDescDisp{
+    width: 46%;
+    position: relative;
+    border: 1px solid #ffffff;
+    background-color: #333333;
+    margin: 0% 0% 0% 52%;
+    color: #8AC240;
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+.vez_products{
+    height: 190px;
+    width: 158px;
+}
+
+.vProd_listing_desc{
+    background-color: #cccccc;
+    color: #333333;
+    font-size: 10px;
+    font-family: arial;
+}
+
+.prodDescDisp{
+    font-size: 10px;
+}
